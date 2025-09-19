@@ -1,14 +1,28 @@
-# A main repository for the labs in the HCI course.
+# Project Name.
+Электронные билеты для ЖД-вокзала в Минске.
 
+## Description
 The goal of the project is the ticket-selling application, with the mobile and web versions communicating witth the api in the backend.
 
-# The whole procces of designing the project is documented in figma:
+## The whole procces of designing the project is documented in figma:
 
-https://www.figma.com/design/qBFWBi2CQRWLRFVqqYzp3C/Давидовская?node-id=0-1&t=TI0BpZd2cnVkEiIE-0
+Lab 1: https://www.figma.com/design/qBFWBi2CQRWLRFVqqYzp3C/Давидовская?node-id=0-1&t=TI0BpZd2cnVkEiIE-0
 
-# Authors
-Сапёрова Стеафния 11 группа
+## Installation
+Пока нет
 
-Стаскевич Виталий 11 группа
+## Sub modules
+Веб-приложение (бэк): https://github.com/fpmi-hci-2025/project11a-backend-tickets
 
-Мацияка Ирина 12 группа
+Веб-приложение (фронт): https://github.com/fpmi-hci-2025/project11a-web-tickets
+
+Мобильное приложение: https://github.com/fpmi-hci-2025/project11a-mobile-tickets
+
+## Authors
+• Сапёрова Стеафния 11 группа
+
+• Стаскевич Виталий 11 группа
+
+• Мацияка Ирина 12 группа
+
+
