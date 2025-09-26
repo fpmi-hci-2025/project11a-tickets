@@ -6,7 +6,7 @@ The goal of the project is the ticket-selling application, with the mobile and w
 
 ## The whole procces of designing the project is documented in figma:
 
-Lab 1: https://www.figma.com/design/qBFWBi2CQRWLRFVqqYzp3C/Давидовская?node-id=0-1&t=TI0BpZd2cnVkEiIE-0
+Lab 1, 2: https://www.figma.com/design/qBFWBi2CQRWLRFVqqYzp3C/Давидовская?node-id=0-1&t=TI0BpZd2cnVkEiIE-0
 
 ## Installation
 Пока нет
@@ -19,7 +19,7 @@ Lab 1: https://www.figma.com/design/qBFWBi2CQRWLRFVqqYzp3C/Давидовска�
 Мобильное приложение: https://github.com/fpmi-hci-2025/project11a-mobile-tickets
 
 ## Authors
-• Сапёрова Стеафния 11 группа
+• Сапёрова Стефания 11 группа
 
 • Стаскевич Виталий 11 группа
 
