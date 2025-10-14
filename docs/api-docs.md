@@ -8,7 +8,7 @@ Mock Server (для тестирования запросов):
 
 ---
 
-1. Регистрация пользователя
+1.Регистрация пользователя
 <pre> 
 curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/auth/register 
 -H "accept: application/json" 
@@ -28,7 +28,7 @@ curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/
 Ошибка (500):
 { "error": "Internal server error" }
 
-2. Авторизация пользователя
+2.Авторизация пользователя
 <pre> 
 curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/auth/login 
 -H "accept: application/json" 
@@ -51,7 +51,7 @@ curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/
 Ошибка (500):
 { "error": "Internal server error" }
 
-3. Поиск поездов
+3.Поиск поездов
 <pre> 
 curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/trains/search?from=Минск&to=Варшава 
 -H "accept: application/json" 
@@ -69,7 +69,7 @@ curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1
 Ошибка (500):
 { "error": "Internal server error" }
 
-4. Информация о поезде
+4.Информация о поезде
 <pre> 
 curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/trains/1 
 -H "accept: application/json" 
@@ -90,7 +90,7 @@ curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1
 Ошибка (500):
 { "error": "Internal server error" }
 
-5. Забронировать билет
+5.Забронировать билет
 <pre> 
 curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/orders 
 -H "accept: application/json" 
@@ -119,7 +119,7 @@ curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/
 Ошибка (500):
 { "error": "Internal server error" }
 
-6. История заказов пользователя
+6.История заказов пользователя
 <pre> 
 curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/orders 
 -H "accept: application/json" 
@@ -134,7 +134,7 @@ curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1
 Ошибка (500):
 { "error": "Internal server error" }
 
-7. Оплата билета
+7.Оплата билета
 <pre> 
 curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/orders/1/pay 
 -H "accept: application/json" 
@@ -149,7 +149,7 @@ curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/
 Ошибка (500):
 { "error": "Internal server error" }
 
-8. Получить данные профиля
+8.Получить данные профиля
 <pre> 
 curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/profile 
 -H "accept: application/json" 
@@ -165,7 +165,7 @@ curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1
 Ошибка (500):
 { "error": "Internal server error" }
 
-9. Обновить профиль
+9.Обновить профиль
 <pre> 
 curl -X PUT https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/profile 
 -H "accept: application/json" 
@@ -182,7 +182,7 @@ curl -X PUT https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1
 Ошибка (500):
 { "error": "Internal server error" }
 
-10. Получить список акций
+10.Получить список акций
 <pre> 
 curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/promotions 
 -H "accept: application/json" 
@@ -205,7 +205,7 @@ curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1
 Ошибка (500):
 { "error": "Internal server error" }
 
-11. Получить список пассажиров
+11.Получить список пассажиров
 <pre> 
 curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/passengers 
 -H "accept: application/json" 
@@ -220,7 +220,7 @@ curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1
 Ошибка (500):
 { "error": "Internal server error" }
 
-12. Добавить пассажира
+12.Добавить пассажира
 <pre> 
 curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/passengers 
 -H "accept: application/json" 
@@ -237,7 +237,7 @@ curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/
 Ошибка (500):
 { "error": "Internal server error" }
 
-13. Получить список обращений
+13.Получить список обращений
 <pre> 
 curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/support/tickets 
 -H "accept: application/json" 
@@ -254,7 +254,7 @@ curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1
 Ошибка (500):
 { "error": "Internal server error" }
 
-14. Создать обращение
+14.Создать обращение
 <pre> 
 curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/support/tickets 
 -H "accept: application/json" 
@@ -273,7 +273,7 @@ curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/
 Ошибка (500):
 { "error": "Internal server error" }
 
-15. Получить список всех поездов (админ)
+15.Получить список всех поездов (админ)
 <pre> 
 curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/admin/flights 
 -H "accept: application/json" 
@@ -288,7 +288,7 @@ curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1
 Ошибка (500):
 { "error": "Internal server error" }
 
-16. Добавить новый поезд (админ)
+16.Добавить новый поезд (админ)
 <pre> 
 curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/admin/flights 
 -H "accept: application/json" 
@@ -305,7 +305,7 @@ curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/
 Ошибка (500):
 { "error": "Internal server error" }
 
-17. Обновить поезд (админ)
+17.Обновить поезд (админ)
 <pre> curl -X PUT https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/admin/flights/1 -H "accept: application/json" -H "Content-Type: application/json" -d '{ "price": 75 }' </pre>
 
 Ответ (200):
@@ -317,7 +317,7 @@ curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/
 Ошибка (500):
 { "error": "Internal server error" }
 
-18. Удалить поезд (админ)
+18.Удалить поезд (админ)
 <pre> 
 curl -X DELETE https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/admin/flights/1 
 -H "accept: application/json" 
@@ -332,7 +332,7 @@ curl -X DELETE https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_AP
 Ошибка (500):
 { "error": "Internal server error" }
 
-19. Получить статистику обращений (админ)
+19.Получить статистику обращений (админ)
 <pre> 
 curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/admin/support/statistics 
 -H "accept: application/json" </pre>
@@ -347,7 +347,7 @@ curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1
 Ошибка (500):
 { "error": "Internal server error" }
 
-20. Получить все акции (админ)
+20.Получить все акции (админ)
 <pre> 
 curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/admin/promotions 
 -H "accept: application/json" </pre>
@@ -360,7 +360,7 @@ curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1
 Ошибка (500):
 { "error": "Internal server error" }
 
-21. Добавить акцию (админ)
+21.Добавить акцию (админ)
 <pre> 
 curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/admin/promotions 
 -H "accept: application/json" 
@@ -375,7 +375,7 @@ curl -X POST https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/
 Ошибка (500):
 { "error": "Internal server error" }
 
-22. Обновить акцию (админ)
+22.Обновить акцию (админ)
 <pre> 
 curl -X PUT https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/admin/promotions/1 
 -H "accept: application/json" 
@@ -391,7 +391,7 @@ curl -X PUT https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1
 Ошибка (500):
 { "error": "Internal server error" }
 
-23. Удалить акцию (админ)
+23.Удалить акцию (админ)
 <pre> curl -X DELETE https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/admin/promotions/1 
 -H "accept: application/json" </pre>
 
@@ -404,7 +404,7 @@ curl -X PUT https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1
 Ошибка (500):
 { "error": "Internal server error" }
 
-24. Получить список пользователей (админ)
+24.Получить список пользователей (админ)
 <pre> curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/admin/users 
 -H "accept: application/json" </pre>
 
@@ -419,7 +419,7 @@ curl -X PUT https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1
 Ошибка (500):
 { "error": "Internal server error" }
 
-25. Получить бизнес-статистику (админ)
+25.Получить бизнес-статистику (админ)
 <pre> curl -X GET https://virtserver.swaggerhub.com/IRINAMACIAKA_1/Train_Booking_API/1.0.0/api/admin/statistics 
 -H "accept: application/json" </pre>
 
