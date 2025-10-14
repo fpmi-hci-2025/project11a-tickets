@@ -11,6 +11,10 @@ Lab 1, 2: https://www.figma.com/design/qBFWBi2CQRWLRFVqqYzp3C/Давидовск
 ## Installation
 Пока нет
 
+## API Documentation
+[open documentation](https://fpmi-hci-2025.github.io/project11a-tickets/api-docs
+)
+
 ## Sub modules
 Веб-приложение (бэк): https://github.com/fpmi-hci-2025/project11a-backend-tickets
 
