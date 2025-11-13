@@ -6,7 +6,9 @@ The goal of the project is the ticket-selling application, with the mobile and w
 
 ## The whole procces of designing the project is documented in figma:
 
-Lab 1, 2: https://www.figma.com/design/qBFWBi2CQRWLRFVqqYzp3C/Давидовская?node-id=0-1&t=TI0BpZd2cnVkEiIE-0
+Lab 1, 2, 3, 4, 5: https://www.figma.com/design/qBFWBi2CQRWLRFVqqYzp3C/Давидовская?node-id=0-1&t=TI0BpZd2cnVkEiIE-0
+
+Lab 6: https://docs.google.com/document/d/1vOYuMncmktJXvsfWs2kaUs_kpSFAUflaDpnIVXhmE1A/edit?usp=sharing
 
 ## Installation
 Пока нет
