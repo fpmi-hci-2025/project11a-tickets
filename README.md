@@ -25,10 +25,10 @@ Lab 6: https://docs.google.com/document/d/1vOYuMncmktJXvsfWs2kaUs_kpSFAUflaDpnIV
 Мобильное приложение: https://github.com/fpmi-hci-2025/project11a-mobile-tickets
 
 ## Authors
-• Сапёрова Стефания 11 группа
+• Сапёрова Стефания 11 группа - Дизайн
 
-• Стаскевич Виталий 11 группа
+• Стаскевич Виталий 11 группа - Мобильное приложение
 
-• Мацияка Ирина 12 группа
+• Мацияка Ирина 12 группа - Web-приложение
 
 
